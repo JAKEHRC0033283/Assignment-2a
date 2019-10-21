@@ -69,5 +69,15 @@ namespace Assignment_2a.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paaaaaaaaarrrrrrrrrrrrrrrr {
+            get {
+                object obj = ResourceManager.GetObject("paaaaaaaaarrrrrrrrrrrrrrrr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
