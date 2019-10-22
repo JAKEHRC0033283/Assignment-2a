@@ -54,8 +54,8 @@ namespace Assignment_2a
                 label1.Text = "RT =" + RT;
             }
 
-            
-            }
+
+        }
 
         private void TextBox5_TextChanged(object sender, EventArgs e)
         {
@@ -64,7 +64,40 @@ namespace Assignment_2a
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            double R1, R2, R3, RT;
 
+            try
+            {
+                R1 = double.Parse(textBox6.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Incorret Input");
+                R1 = 0.0;
+            }
+            try
+            {
+                R2 = double.Parse(textBox5.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Incorret Input");
+                R2 = 0.0;
+            }
+            try
+            {
+                R3 = double.Parse(textBox4.Text);
+            }
+
+            catch
+            {
+                MessageBox.Show("Incorret Input");
+                R3 = 0.0;
+            }
+            {
+                RT = R1 + R2 + R3;
+                label1.Text = "RT =" + RT;
+            }
         }
     }
-    }         
+}
