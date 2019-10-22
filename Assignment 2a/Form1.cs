@@ -95,8 +95,8 @@ namespace Assignment_2a
                 R3 = 0.0;
             }
             {
-                RT = R1 + R2 + R3;
-                label1.Text = "RT =" + RT;
+                RT = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3);
+                label5.Text = "RT =" + RT; 
             }
         }
     }
